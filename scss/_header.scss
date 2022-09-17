@@ -13,6 +13,7 @@
             justify-content: space-around;
             height: 85px;
         }
+      
         .nav-logo{
             display: flex;
             justify-content: center;
@@ -38,8 +39,11 @@
         }
         &-nav{
             background: linear-gradient(120deg, #FFFFFF, #6DD5FA, #2980B9);
+            font-family: $letraSecundaria;
+            font-size: 20px;
             li{
                 text-decoration: none;
+
                 color: #273463;
                 font-size: 18px;
                 padding: 2px; 
@@ -51,6 +55,7 @@
                 }
                 .nav-item{
                     a{
+                        font-family: $letraPrimaria;
                         transition: all .5s ease-in-out;
                         &:hover{
                             border-bottom: #273463 !important;

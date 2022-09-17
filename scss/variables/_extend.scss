@@ -6,11 +6,18 @@
     color: white;  
 }
 %textoh1{
-    color: rgb(69, 69, 134);
+    color: $celesteClaro;
     text-align: center;
     font-size: 40px;
     font-weight: 900;
     text-transform: uppercase;
+    font-family: $letraPrimaria;
+    
+    text-shadow: 3px 5px 2px #474747;
+    &::first-letter{
+        font-size: 60px;
+        color: $celesteOscuro;
+    }
 }
 %textoCarousel{
     background-color: hsla(227, 43%, 27%, 0.432);

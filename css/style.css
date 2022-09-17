@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&family=Source+Sans+Pro:wght@200;400;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +41,9 @@ body {
     .header .navbar .nav-logo:hover {
       box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.247); }
   .header .navbar-nav {
-    background: linear-gradient(120deg, #FFFFFF, #6DD5FA, #2980B9); }
+    background: linear-gradient(120deg, #FFFFFF, #6DD5FA, #2980B9);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px; }
     .header .navbar-nav li {
       text-decoration: none;
       color: #273463;
@@ -52,6 +55,7 @@ body {
       .header .navbar-nav li:hover {
         box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.247); }
       .header .navbar-nav li .nav-item a {
+        font-family: "Shrikhand", cursive;
         transition: all .5s ease-in-out; }
         .header .navbar-nav li .nav-item a:hover {
           border-bottom: #273463 !important; }
@@ -94,15 +98,23 @@ body {
   color: white; }
 
 body h1 {
-  color: #454586;
+  color: #6DD5FA;
   text-align: center;
   font-size: 40px;
   font-weight: 900;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "Shrikhand", cursive;
+  text-shadow: 3px 5px 2px #474747; }
+  body h1::first-letter {
+    font-size: 60px;
+    color: #2980B9; }
 
 .header .textoCarousel {
   background-color: rgba(39, 52, 98, 0.432);
   border-radius: 7px; }
+
+body h1 {
+  font-family: "Shrikhand", cursive; }
 
 body .contenido-index {
   display: grid;
@@ -142,13 +154,28 @@ body .seccion1 {
     body .seccion1 .card .contenido h3 {
       text-align: center;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 17px;
       font-weight: 600;
-      margin: 10px 20px; }
+      margin: 10px 20px;
+      font-family: "Shrikhand", cursive;
+      color: #2980B9; }
     body .seccion1 .card .contenido p {
       text-align: justify;
       font-size: 13px;
-      padding: 15px; }
+      padding: 5px;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #12123a; }
+    body .seccion1 .card .contenido a {
+      text-decoration: none;
+      padding: 5px;
+      color: #6DD5FA;
+      letter-spacing: 1px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 15px;
+      transition: all .3s ease-in-out; }
+      body .seccion1 .card .contenido a:hover {
+        color: #2980B9;
+        transform: skew(2px); }
 
 body .linea {
   border: none;
@@ -168,13 +195,18 @@ body .seccion2 {
     max-width: 400px;
     padding: 15px 30px; }
     body .seccion2_caja h3 {
-      font-size: 18px;
+      font-family: "Shrikhand", cursive;
+      font-size: 20px;
       text-transform: capitalize;
-      margin-bottom: 15px; }
+      margin-bottom: 7px;
+      text-align: left;
+      color: #2980B9; }
     body .seccion2_caja p {
+      font-family: "Source Sans Pro", sans-serif;
       font-size: 14px;
       padding: 5px;
-      text-align: justify; }
+      text-align: justify;
+      color: #12123a; }
 
 body .seccion3 {
   grid-area: seccion3;
@@ -188,7 +220,10 @@ body .seccion3 {
   align-items: center;
   justify-content: center; }
   body .seccion3 h2 {
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: rgba(138, 108, 21, 0.459);
+    text-transform: capitalize;
+    font-family: "Shrikhand", cursive;
+    color: transparent;
     border-radius: 10px;
     padding: 10px;
     color: #f4f6ff;
@@ -199,11 +234,12 @@ body .seccion4 {
   margin: 20px; }
   body .seccion4 h3 {
     text-align: center;
-    color: white;
+    color: #6DD5FA;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    font-size: 19px;
-    font-family: 'Yeseva One', cursive; }
+    font-size: 38px;
+    font-family: "Shrikhand", cursive;
+    text-shadow: 3px 5px 2px #2980B9; }
   body .seccion4 .medios-pago {
     width: 100%;
     display: flex;

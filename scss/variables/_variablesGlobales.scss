@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Source+Sans+Pro:wght@200;400;900&display=swap');
+// font-family: 'Shrikhand', cursive;
+// font-family: 'Source Sans Pro', sans-serif;
+$letraPrimaria: 'Shrikhand', cursive;
+$letraSecundaria: 'Source Sans Pro', sans-serif;
+
+// colores
+$rosa: #b16c71;
+$fuxia: #884162;
+$blanco: #FFFFFF;
+$verde: #509e9a;
+$mostaza: hsla(45, 74%, 31%, 0.459);
+$celesteClaro: #6DD5FA;
+$celesteOscuro: #2980B9;
+$azul: rgb(18, 18, 58);
+
 *{
     margin: 0;
     padding: 0;

@@ -1,6 +1,7 @@
 body{
     h1{
         @extend %textoh1;
+        font-family: $letraPrimaria;
     }
     .contenido-index{
         display: grid;
@@ -30,6 +31,7 @@ body{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+          
             
 
             .card{
@@ -54,14 +56,33 @@ body{
                     h3{
                         text-align: center;
                         text-transform: uppercase;
-                        font-size: 15px;
+                        font-size: 17px;
                         font-weight: 600;
                         margin:10px 20px;
+                        font-family: $letraPrimaria;
+                        color: $celesteOscuro;
                     }
                     p{
                         text-align: justify;
                         font-size: 13px;
-                        padding: 15px; 
+                        padding: 5px; 
+                        font-family: $letraSecundaria;
+                        color: $azul;
+                    }
+                    a{
+                        text-decoration: none;
+                        padding: 5px;
+                        color: $celesteClaro;
+                        letter-spacing: 1px;
+                        font-family: $letraSecundaria;
+                        font-size: 15px;
+                        transition: all .3s ease-in-out;
+                        
+                        &:hover{
+                            color: $celesteOscuro;
+                            transform: skew(2px);
+
+                        }
                     }
                 }
             }
@@ -87,21 +108,26 @@ body{
         padding: 15px 30px;   
         
         h3{
-            font-size: 18px;
+            font-family: $letraPrimaria;
+            font-size: 20px;
             text-transform: capitalize;
-            margin-bottom: 15px;
+            margin-bottom: 7px;
+            text-align: left;
+            color: $celesteOscuro;
         }
         p{
+            font-family: $letraSecundaria;
             font-size: 14px;
             padding: 5px;
             text-align: justify;
+            color: $azul;
         }
     }
 }
 // seccion 3 - imagen fija
     .seccion3 {
         grid-area: seccion3;
-    background-image: url(../img/banner.jpg);
+        background-image: url(../img/banner.jpg);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -112,12 +138,16 @@ body{
         justify-content: center;
 
         h2{
-            background-color: hsla(0, 0%, 0%, 0.719);
+            background-color: $mostaza;
+            text-transform: capitalize;
+            font-family: $letraPrimaria;
+            color: transparent;
             border-radius: 10px;
             padding: 10px;
             color: #f4f6ff;
             font-size: 38px;
             text-align: center;
+            
         }
     }
     // seccion 4 - medios de pago
@@ -125,11 +155,12 @@ body{
         margin: 20px;
         h3{
             text-align: center;
-            color: white;
+            color: $celesteClaro;
             text-transform: uppercase;
             letter-spacing: 1.2px;
-            font-size: 19px;
-            font-family: 'Yeseva One', cursive;  
+            font-size: 38px;
+            font-family: $letraPrimaria;  
+            text-shadow: 3px 5px 2px $celesteOscuro;
         }
         .medios-pago{
             width: 100%;

@@ -1,0 +1,22 @@
+
+%estiloCajasFooter{
+    flex-basis: 50%;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;  
+}
+%textoh1{
+    color: rgb(69, 69, 134);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+%textoCarousel{
+    background-color: hsla(227, 43%, 27%, 0.432);
+    border-radius: 7px;
+}
+
+@mixin fondoBanner ($imagen){
+    background: linear-gradient(to right, hsla(121, 40%, 45%, 0.507), hsla(227, 54%, 34%, 0.507)),url($imagen);
+}

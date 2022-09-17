@@ -1,5 +1,9 @@
-.contenedor__servicios{
-    max-height: 100%;
+.rowEstilo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .contenedor__servicios{
+        max-height: 100%;
     .imagen__servicios{
         display: flex;
         justify-content: center;
@@ -10,20 +14,33 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-         min-height: 180px;
+        min-height: 350px;
         height: 100%;
         color: white;
+        margin: 10px 5px;
         text-align: center;
+        overflow: hidden;
         h1{
-            font-family: 'Yeseva One', cursive;
+            font-family: $letraPrimaria;
             font-weight: bolder;
             text-transform: uppercase;
             text-align: center;
         }
+        h6{
+            font-family: $letraSecundaria;
+            text-transform: capitalize;
+            font-size: 19px;
+            color: $celesteClaro;
+        }
     }
 }
-.accordion-button, .accordion-button:not(.collapsed), .accordion-body{
-    background: linear-gradient(120deg, #FFFFFF, #6DD5FA, #2980B9);
-    opacity: .8;
-    
+.acordionEstilo{
+    margin: 5px 0;
+   
+    .accordion-button, .accordion-button:not(.collapsed), .accordion-body{
+        background: linear-gradient(120deg, #FFFFFF, #6DD5FA, #2980B9);
+        opacity: .8;
+        
+    }
+}
 }

@@ -77,11 +77,8 @@ body{
                         font-family: $letraSecundaria;
                         font-size: 15px;
                         transition: all .3s ease-in-out;
-                        
                         &:hover{
                             color: $celesteOscuro;
-                            transform: skew(2px);
-
                         }
                     }
                 }

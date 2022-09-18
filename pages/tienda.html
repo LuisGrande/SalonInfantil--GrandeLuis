@@ -1,172 +1,274 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/logo.webp" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/logo.webp" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Salon de Eventos</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
-                <img class="nav-logo" src="../img/logo.webp" alt="niño jugando" />
-              </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link "
-                      aria-current="page"
-                      href="./paquetes.html"
-                      >Paquetes</a>                    
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="./servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./tienda.html">Tienda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contactanos.html"
-                      >Contactanos</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-           
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../img/img1.jpg" class="d-block w-100 h-50 " alt="Globos">
-                <div class="carousel-caption d-none d-md-block textoCarousel">
-                  <h5>NOSOTROS</h5>
-                  <p>Nos Especializamos en Eventos Sociales. Priorizamos la atención personalizada, y la calidad de servicio..</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../img/img3.jpg" class="d-block w-100 h-50" alt="donas">
-                <div class="carousel-caption d-none d-md-block textoCarousel">
-                  <h5>EVENTOS</h5>
-                  <p>Cumpleaños - Cumpleaños de 15 Informal - Bautismos - Comunión - Bar y Bat Mitzva Civiles - Casamientos Informales - Despedidas - Graduaciones.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../img/img4.jpg" class="d-block w-100 h-50" alt="salon de venta">
-                <div class="carousel-caption d-none d-md-block textoCarousel">
-                  <h5>SERVICIOS</h5>
-                  <p>Espectáculos infantiles, animaciones y salones de fiestas infantiles - Cotillón y Peloteros - Cumpleaños infantiles.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="nav-logo" src="../img/logo.webp" alt="niño jugando" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./paquetes.html"
+                  >Paquetes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactanos.html">Contactanos</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../img/img1.jpg"
+              class="d-block w-100 h-50"
+              alt="Globos"
+            />
+            <div class="carousel-caption d-none d-md-block textoCarousel">
+              <h5>NOSOTROS</h5>
+              <p>
+                Nos Especializamos en Eventos Sociales. Priorizamos la atención
+                personalizada, y la calidad de servicio..
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/img3.jpg" class="d-block w-100 h-50" alt="donas" />
+            <div class="carousel-caption d-none d-md-block textoCarousel">
+              <h5>EVENTOS</h5>
+              <p>
+                Cumpleaños - Cumpleaños de 15 Informal - Bautismos - Comunión -
+                Bar y Bat Mitzva Civiles - Casamientos Informales - Despedidas -
+                Graduaciones.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/img4.jpg"
+              class="d-block w-100 h-50"
+              alt="salon de venta"
+            />
+            <div class="carousel-caption d-none d-md-block textoCarousel">
+              <h5>SERVICIOS</h5>
+              <p>
+                Espectáculos infantiles, animaciones y salones de fiestas
+                infantiles - Cotillón y Peloteros - Cumpleaños infantiles.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
-    <main >
+    <main>
       <h1>Tienda</h1>
       <div class="tienda_container">
-        <div class="producto" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS257X4fDV2Py068C5oV99br6emnQJaG3dvzwsGfYGM5z8P9g8IiCo845vjS3fZalXvchA&usqp=CAU');">
-        </div>
-        <div class="producto alto" style="background-image: url('https://ideasparalasfiestas.com/wp-content/uploads/2019/10/backdrops-para-fiesta-tematica-de-futbol-5.jpg');">
-        </div>
-        <div class="producto" style="background-image: url('https://i.pinimg.com/736x/24/05/be/2405be185e52fe8391bf5b41529b481d.jpg');">
-        </div>
-        <div class="producto" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUc0DqVM8FblTljq98ty2FMz6w9veCJ2OjHxUkneCq9kUFdsTrs_WwrGmy7g4HrqkOxI&usqp=CAU');">
-        </div>
-        <div class="producto" style="background-image: url('https://i.pinimg.com/550x/1f/8d/17/1f8d17bbf4d4db6a8eac2fa7c11cfc0a.jpg');">
-        </div>
-        <div class="producto ancho" style="background-image: url('https://i.pinimg.com/originals/8b/14/f9/8b14f9f16a777388ebb6c97baa510bef.jpg');">
-        </div>
-        <div class="producto" style="background-image: url('https://i.pinimg.com/originals/c6/18/a1/c618a125e3ec7c7751bdcb5841740ddd.webp');">
-        </div>
-        <div class="producto alto" style="background-image: url('https://i.pinimg.com/236x/9a/eb/20/9aeb2045a3c868a6ed76ebd6d43dd7f2--shower-ideas-baby-boy.jpg');">
-        </div>
-        <div class="producto ancho alto" style="background-image: url('https://www.polibol.com.ar/Fotos/051224.jpg');">
-        </div>
+        <div
+          class="producto"
+          style="
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS257X4fDV2Py068C5oV99br6emnQJaG3dvzwsGfYGM5z8P9g8IiCo845vjS3fZalXvchA&usqp=CAU');
+          "
+        ></div>
+        <div
+          class="producto alto"
+          style="
+            background-image: url('https://ideasparalasfiestas.com/wp-content/uploads/2019/10/backdrops-para-fiesta-tematica-de-futbol-5.jpg');
+          "
+        ></div>
+        <div
+          class="producto"
+          style="
+            background-image: url('https://i.pinimg.com/736x/24/05/be/2405be185e52fe8391bf5b41529b481d.jpg');
+          "
+        ></div>
+        <div
+          class="producto"
+          style="
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUc0DqVM8FblTljq98ty2FMz6w9veCJ2OjHxUkneCq9kUFdsTrs_WwrGmy7g4HrqkOxI&usqp=CAU');
+          "
+        ></div>
+        <div
+          class="producto"
+          style="
+            background-image: url('https://i.pinimg.com/550x/1f/8d/17/1f8d17bbf4d4db6a8eac2fa7c11cfc0a.jpg');
+          "
+        ></div>
+        <div
+          class="producto ancho"
+          style="
+            background-image: url('https://i.pinimg.com/originals/8b/14/f9/8b14f9f16a777388ebb6c97baa510bef.jpg');
+          "
+        ></div>
+        <div
+          class="producto"
+          style="
+            background-image: url('https://i.pinimg.com/originals/c6/18/a1/c618a125e3ec7c7751bdcb5841740ddd.webp');
+          "
+        ></div>
+        <div
+          class="producto alto"
+          style="
+            background-image: url('https://i.pinimg.com/236x/9a/eb/20/9aeb2045a3c868a6ed76ebd6d43dd7f2--shower-ideas-baby-boy.jpg');
+          "
+        ></div>
+        <div
+          class="producto ancho alto"
+          style="
+            background-image: url('https://www.polibol.com.ar/Fotos/051224.jpg');
+          "
+        ></div>
       </div>
-        
     </main>
     <footer class="footer">
-        
-            <div class="izquierda">
-                <h2 class="footer_text">Quienes Somos</h2>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi perspiciatis nam mollitia eveniet quia quae repellendus adipisci aliquid magnam?</p>
-                </div>    
+      <div class="cajasFooter">
+        <div class="izquierda">
+          <h2 class="footer_text">Quienes Somos</h2>
+          <div class="content">
+            <p>
+              Somos un salón de eventos infantiles con una trayectoria de más de
+              14 años en Tucuman, que ofrece canchas de futbol y amplio espacio
+              al aire libre. Nos especializamos en animaciones. Una manera
+              distinta de festejar tu cumple!
+            </p>
+          </div>
+        </div>
+        <div class="centro">
+          <h2>Encontranos en:</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28396.360507998914!2d-65.52120534517208!3d-27.170600583007424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423cab97542377d%3A0xfc7c119b28c63472!2sMonteros%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1663458706890!5m2!1ses-419!2sar"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="derecha">
+          <h2 class="footer_text">Contactame</h2>
+          <div class="content">
+            <div class="datoFooter">
+              <span class="fa-solid fa-location-dot"></span>
+              <span>Monteros, Tucuman</span>
             </div>
-            <div class="derecha">
-                <h2 class="footer_text">Contactame</h2>
-                <div class="content">
-                    <div class="ubicacion">
-                        <span class="fa-solid fa-location-dot"></span>
-                        <span>Monteros, Tucuman</span>
-                    </div>
-                    <div class="telefono">
-                        <span class="fa-solid fa-phone"></span>
-                        <span>(5555) - 55555</span>
-                    </div>
-                    <div class="contactame">
-                        <span class="fa-solid fa-user"></span>
-                        <span><a href="../pages/contactanos.html">contactame</a></span>
-                    </div>
-                </div>    
-                
-                <div class="social">
-                    <a href=""><span class="fa-brands fa-facebook"></span></a>
-                    <a href=""><span class="fa-brands fa-square-instagram"></span></a>
-                    <a href=""><span class="fa-brands fa-twitter"></span></a>
-                    <a href=""><span class="fa-brands fa-telegram"></span></a>
-                </div>
+            <div class="datoFooter">
+              <span class="fa-solid fa-phone"></span>
+              <span>(5555) - 55555</span>
             </div>
+            <div class="datoFooter">
+              <span class="fa-solid fa-user"></span>
+              <span><a href="./pages/contactanos.html">contactame</a></span>
+            </div>
+          </div>
+
+          <div class="social">
+            <a href=""><span class="fa-brands fa-facebook"></span></a>
+            <a href=""><span class="fa-brands fa-square-instagram"></span></a>
+            <a href=""><span class="fa-brands fa-twitter"></span></a>
+            <a href=""><span class="fa-brands fa-telegram"></span></a>
+          </div>
+        </div>
+      </div>
+      <hr class="linea" />
+      <div class="datoProgramador">
+        <p>
+          sitio creado por <strong><a href="#">Grande Luis</a></strong>
+        </p>
+      </div>
     </footer>
 
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://kit.fontawesome.com/5db4cc9cca.js"
-    crossorigin="anonymous"
-  ></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5db4cc9cca.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

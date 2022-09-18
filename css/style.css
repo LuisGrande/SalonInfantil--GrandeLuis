@@ -70,7 +70,7 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to top, #000000, rgba(30, 32, 30, 0.801), transparent);
+  background: linear-gradient(to top, #000000, #2b2a2a, transparent);
   min-height: 200px; }
   .footer .cajasFooter {
     display: flex;
@@ -146,8 +146,7 @@ body {
   text-align: center;
   font-size: 15px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #12123a;
-  text-shadow: #4b4b4b 3px 5px 2px; }
+  color: #12123a; }
 
 body h1 {
   color: #6DD5FA;

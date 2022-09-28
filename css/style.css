@@ -418,13 +418,19 @@ body .seccion4 {
   @media (min-width: 768px) {
     .tienda_container .ancho {
       grid-column: span 2; } }
+  @media (min-width: 1270px) {
+    .tienda_container .ancho {
+      grid-column: span 1; } }
   @media (min-width: 768px) {
     .tienda_container .alto {
       grid-row: span 2; } }
+  @media (min-width: 1270px) {
+    .tienda_container .alto {
+      grid-column: span 1; } }
   .tienda_container .producto {
     background-color: #f4f6ff;
     border-radius: 4px;
-    background-position: cover;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .6s ease-in-out; }

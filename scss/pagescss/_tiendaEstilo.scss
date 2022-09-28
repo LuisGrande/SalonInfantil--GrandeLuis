@@ -6,9 +6,13 @@
     background: transparent;
     overflow: hidden;
     grid-auto-flow: dense;
+    
     .ancho{
         @include mediaQuery(md){
             grid-column: span 2;
+        }
+        @include mediaQuery(xl){
+            grid-column: span 1;
         }
     }
 
@@ -17,12 +21,15 @@
 
             grid-row: span 2;
         }
+        @include mediaQuery(xl){
+            grid-column: span 1;
+        }
     }
     
     .producto{
         background-color: #f4f6ff;
         border-radius: 4px;
-        background-position: cover;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         transition: transform .6s ease-in-out;

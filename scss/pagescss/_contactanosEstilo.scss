@@ -13,6 +13,11 @@
             align-items: center;
             flex-direction: column;
             color: #f4f6ff;
+            small{
+                text-align: center;
+                font-family: $letraSecundaria;
+                color: $blanco;
+            }
             h1{
                 padding: 20px 0;
                 font-size: 30px;

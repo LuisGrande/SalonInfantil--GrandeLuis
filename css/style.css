@@ -459,6 +459,10 @@ h3 {
     align-items: center;
     flex-direction: column;
     color: #f4f6ff; }
+    .contacto .texto-form small {
+      text-align: center;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #FFFFFF; }
     .contacto .texto-form h1 {
       padding: 20px 0;
       font-size: 30px;

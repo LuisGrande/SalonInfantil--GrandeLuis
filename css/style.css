@@ -461,9 +461,12 @@ h3 {
     color: #f4f6ff; }
     .contacto .texto-form h1 {
       padding: 20px 0;
-      font-size: 50px;
+      font-size: 30px;
       font-weight: bolder;
       font-family: "Shrikhand", cursive; }
+      @media (min-width: 768px) {
+        .contacto .texto-form h1 {
+          font-size: 50px; } }
   .contacto .formulario {
     display: flex;
     flex-direction: column;

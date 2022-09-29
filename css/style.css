@@ -456,5 +456,24 @@ body .seccion4 {
       font-size: 50px;
       font-weight: bolder;
       font-family: "Shrikhand", cursive; }
-  .contacto textarea {
-    resize: none; }
+  .contacto .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .contacto .formulario .mb-4 {
+      width: 100%; }
+    .contacto .formulario textarea {
+      resize: none; }
+    .contacto .formulario .colorBoton {
+      background-color: #6DD5FA;
+      padding: 10px 20px;
+      text-align: center;
+      margin: auto;
+      font-size: 18px;
+      font-family: "Shrikhand", cursive;
+      width: 70%;
+      transition: background-color .6s ease-in-out; }
+      .contacto .formulario .colorBoton:hover {
+        background-color: #2980B9; }

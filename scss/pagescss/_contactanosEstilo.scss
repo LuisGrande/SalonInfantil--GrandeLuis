@@ -1,25 +1,50 @@
 .contacto{
-    margin: 10px 0;
-    .form-img{
-        background-image: url(../img/img5.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .texto-form{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: #f4f6ff;
-        h1{
-            padding: 20px 0;
-            font-size: 50px;
-            font-weight: bolder;
-            font-family: $letraPrimaria;
+    
+        margin: 10px 0;
+        .form-img{
+            background-image: url(../img/img5.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
-    }
-    textarea{
-        resize: none;
+        .texto-form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #f4f6ff;
+            h1{
+                padding: 20px 0;
+                font-size: 50px;
+                font-weight: bolder;
+                font-family: $letraPrimaria;
+            }
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .mb-4{
+                width: 100%;
+            }
+            textarea{
+                resize: none;
+            }
+            .colorBoton{
+                background-color: $celesteClaro;
+                padding: 10px 20px;
+                text-align: center;
+                margin: auto;
+                font-size: 18px;
+                font-family: $letraPrimaria;
+                width: 70%;
+                transition: background-color .6s ease-in-out;
+                &:hover{
+                   background-color: $celesteOscuro;
+                }
+
+            }
     }
 }
